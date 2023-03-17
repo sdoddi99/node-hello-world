@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: sdoddi99/node-hello-world
+      IMAGE_NAME: srikar176/node-hello-world
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
